@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hangManGame</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+
+<body>
+
+    <div class="container">
+        <button class="play" onclick="window.location.reload();">play =></button>
+        <div class="game-info">
+            <div class="game-name">Hang Man Game</div>
+            <div class="category-info">
+                word from : <span></span>
+            </div>
+        </div>
+<hr>
+        <div class="content">
+            <div class="the-draw">
+                <div class="hang-man-draw">
+                    <div class="stand"></div>
+                    <div class="column"></div>
+                    <div class="hang"></div>
+                    <div class="rop"></div>
+                    <div class="head"></div>
+                    <div class="body"></div>
+                    <div class="arm">
+                        <div class="l-arm"></div>
+                        <div class="r-arm"></div>
+                    </div>
+                    
+                    <div class="leg">
+                        <div class="l-leg"></div>
+                        <div class="r-leg"></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="letters">
+                <div class="letter-boxes">
+
+                </div>
+            </div>
+        </div>
+<hr>
+        <div class="letter-guess">
+
+        </div>
+<hr>
+    </div>
+    <audio class="start-game" src="music game\trailermusic-7621.mp3"></audio>
+    <audio class="true" src="music game\announcement-sound-4-21464.mp3"></audio>
+    <audio class="false" src="music game\failure-drum-sound-effect-2-7184.mp3"></audio>
+    <audio class="success" src="music game\acoustic-motivation-11290.mp3"></audio>
+    <audio class="faild" src="music game\sound-effect-thriller-1-108404.mp3"></audio>
+    <audio class="clostofail" src="music game\heartbeat-sound-effect-111218.mp3"></audio>
+    <script src="javaScript.js"></script>
+    
+</body>
+
+</html>
